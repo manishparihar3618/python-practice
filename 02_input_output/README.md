@@ -1,0 +1,2 @@
+#Explicit typecasting : conversion of one data type into another by programmer. above was example of it 
+#Implicit typecasting : data type in python have different level. i.e ordering of data type is not same in python. some data type are smaller data type some have higher data type . python automatically convert a smaller level data types into higher level data types.
