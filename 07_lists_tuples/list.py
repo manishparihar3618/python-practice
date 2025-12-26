@@ -21,12 +21,13 @@ print(marks[4])
 print(len(marks))
 #We have already learned concept of accesing items from list, in above program
 # Negative indexing:- 
-print(marks[-3])
+print("Negative indexing",marks[-3])
 print(marks[len(marks)-3])
 print(marks[5-3])
 print(marks[2])
 #marks[-3] is basically 5-3=marks[2]
 #Cheak whether an item is present in list?
+print("Conditional concept in list")
 if 6 in marks:
     print("Yes")
 else:

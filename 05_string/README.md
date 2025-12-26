@@ -1,0 +1,7 @@
+- `string_basics.py` – Introduces basic string operations like concatenation, escaping quotes, and using triple quotes for multiline strings.
+- `string_indexing.py` – Shows how to access characters in a string using positive indexing.
+- `string_slicing.py` – Explains string slicing techniques and the use of `len()` function with positive and negative indexes.
+- `string_for_loop.py` – Demonstrates how to iterate through a string character by character using a `for` loop.
+- `string_methods.py` – Demonstrates all major string methods such as `upper()`, `lower()`, `replace()`, `split()`, `count()`, `startswith()`, and more with examples and explanations.
+- `f_string.py` – Demonstrates string formatting in Python using both the `format()` method and modern `f-strings`, including positional formatting, precision control, expressions, and escaping braces.
+- `docstring_example.py` – Shows how to write and access Python docstrings using `.__doc__`, and explains the difference between comments and docstrings.

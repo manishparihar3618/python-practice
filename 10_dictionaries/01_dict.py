@@ -6,7 +6,6 @@ dict_example = {
     "Spoon": "Object",
     456: "Integer"
 }
-
 print(dict_example["Manish"])  # Output: Human being
 print(dict_example["Spoon"])   # Output: Object
 print(dict_example[456])       # Output: Integer

@@ -16,8 +16,9 @@ print("s2 remains unchanged:", s2)  # {3, 5, 7}
 # Intersection 
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
-intersection = cities.intersection(cities2)
-print("Intersection of cities:", intersection)
+# intersection = cities.intersection(cities2)
+print("Intersection of cities:",cities.intersection(cities2))
+# print("Intersection of cities:", intersection)
 
 # Update 
 cities.update(cities2)

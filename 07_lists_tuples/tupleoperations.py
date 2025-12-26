@@ -8,14 +8,12 @@ temp[2] = "Finland" #Changed India()index 2 with Finland.
 countries = tuple(temp)#Converted back into a Tuple.
 print(countries)
 
-
 #However we can directly concatenate two tuples without converting them to list.
 countries = ("Pakistan", "Afghanistan", "Bangladesh", "Srilanka")
 countries2 =("India", "China", "Vietnam" )
 SouthEastAsia = countries + countries2
 print(SouthEastAsia)
 
-#Methods
 #Tuple Methods
 #As tuple is immutable type of collection of elements it have limited built in methods. They are explained below
 
@@ -30,10 +28,8 @@ print("Count of 3 in Tuple1 is :", res)
 Tuple1 = (0,1,2,3,2,3,1,3,2)
 res = Tuple1.index(3)
 print("Index of first Occurence of 3 is:-",res)
-
 res = Tuple1.index(3, 4, 8)#it will be doing slicing means between index 4 to 8 it will cheak the first occurence of 3 
 print("Index of first Occurence of 3 between index 4 to 8 is:-",res)
-
 
 #(3) Length Method:-
 Tuple1 = (0,1,2,3,2,3,1,3,2)
