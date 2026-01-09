@@ -40,8 +40,6 @@ add(1,2),
 
 
 
-
-
 def checker(fx):
     def wrapper2():
         a = int(input("Enter a number: "))  
@@ -57,3 +55,21 @@ def number(n):
     print(f"The number entered is: {n}")
 
 number()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Ex:- We perfrom online or offline transactions on daily basis . we knwo that trasaction is sequence of steps that we perform. But if in this trasaction we get a message  that our trasaction has started in starting of transaction. And when transaction is done we again get message trasaction is completed. It will help us to know when trasaction is started and when it is done. This can be done using Decoraters 
+
+#Decorator is a fxn that takes another fxn as argument and returns the a fxn.
