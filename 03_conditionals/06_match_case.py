@@ -46,3 +46,24 @@ match day:
         print("Weekend")
     case _:
         print("Invalid input")
+
+
+
+
+
+# Simple calculator using match case 
+a = float(input("Enter First Number : "))
+b = float(input("Enter Second Number : "))
+op = input("Enter operation you want too perform : ",)
+match op:
+    case "+":
+        print(a+b)
+    case "-":
+        print(a-b)
+    case "*":
+        print(a*b)
+    case "/":
+        if b == 0:
+         print("Cannot Divide by Zero")
+        else:
+         print(a/b)
