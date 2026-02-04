@@ -94,5 +94,6 @@ start_vehicle(bike)
 
 
 class shape:
-  def area(self)
+  def area(self):
+    pass 
     

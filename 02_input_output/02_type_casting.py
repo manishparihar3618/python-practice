@@ -7,3 +7,6 @@ print(int(a)+int(b))#basic typecasting but there should be valid integer of any 
 c = 1.2
 d = 2
 print(c+d)# python itself coverted it into float
+
+
+

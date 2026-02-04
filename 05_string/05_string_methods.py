@@ -65,7 +65,7 @@ print("We wish you Happy Birthday".isprintable())
 print("We wish you Happy Birthday\n".isprintable())
 
 # isspace() – checks whitespace only
-print("     ".isspace())     
+print("     ".isspace())     #tab is used 
 print("	".isspace())         
 
 # istitle() – checks if first letter of every word is uppercase

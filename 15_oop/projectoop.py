@@ -59,3 +59,4 @@ class  Hotel:
     def show_all_bookings():
      pass
 
+
