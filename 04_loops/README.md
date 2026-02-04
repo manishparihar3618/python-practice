@@ -46,3 +46,13 @@ for i in range(5):
     print(i)
 else:
     print("Loop finished without break")
+
+
+
+
+### 07_else_in_loop
+Program to Cheak whether a number is prime or not Using
+-A loop
+-An else block with loop
+
+> Main logic:- num%i == 0
