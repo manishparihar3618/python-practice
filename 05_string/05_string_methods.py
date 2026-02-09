@@ -85,7 +85,7 @@ print("Python is a Interpreted Language".swapcase())
 print("My name is manish parIhar i am a enginerring Student".title())
 
 
-#reversed() - 
+#reversed() - Using reverse method for reversal of a string 
 text = "Python"
 reversed_text = "".join(reversed(text))
 print(reversed_text)
