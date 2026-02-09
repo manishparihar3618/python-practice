@@ -83,3 +83,9 @@ print("Python is a Interpreted Language".swapcase())
 
 # title() – capitalizes first letter of each word
 print("My name is manish parIhar i am a enginerring Student".title())
+
+
+#reversed() - 
+text = "Python"
+reversed_text = "".join(reversed(text))
+print(reversed_text)

@@ -27,3 +27,7 @@ for k in range(1, 15, 3):
 # Example 5: range(1, 9, 3)
 for k in range(1, 9, 3):
     print(k + 1)    # prints 2, 5, 8
+
+#Example 5:
+for i in range(1,5):
+ print('*'*i)

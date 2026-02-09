@@ -57,39 +57,60 @@
 
 
 
-for i in range(1,21):
- if i%7 == 0 :
-   break
- print(i)
+# for i in range(1,21):
+#  if i%7 == 0 :
+#    break
+#  print(i)
 
 
 
 
-for i in range(1,21):
- if i %2 == 0:
-    continue
- print(i)
+# for i in range(1,21):
+#  if i %2 == 0:
+#     continue
+#  print(i)
 
 
 
-# for i in range():
+# # for i in range():
 
 
-for i in range(1,6):
-  print(i)
+# for i in range(1,6):
+#   print(i)
   
-else:
-    print("Sorry")
+# else:
+#     print("Sorry")
 
 
 
-num = int(input("Enter a number: "))
-if num>1:
- for i in range(2,num):
-    if (num % i) == 0:
-        print(num, "is not a prime number")
-        break
- else:
-    print(num, "is a prime number")     
+# num = int(input("Enter a number: "))
+# if num>1:
+#  for i in range(2,num):
+#     if (num % i) == 0:
+#         print(num, "is not a prime number")
+#         break
+#  else:
+#     print(num, "is a prime number")     
 
   
+
+
+
+
+# PROGRAM 10
+# Write a program to print the following pattern:
+# , *, *, *, **
+# for i in range(1,5):
+#  print('*'*i)
+
+
+
+
+
+
+# Program 11
+str1 = str(input("Enter your String: "))
+print(str1[0])
+n=len(str1)
+print(str1[n-1])
+print(rev(str1))
