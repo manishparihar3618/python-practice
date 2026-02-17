@@ -13,6 +13,7 @@ s1.update(s2)
 print("After s1.update(s2):", s1)  # {1, 2, 3, 5, 6, 7}
 print("s2 remains unchanged:", s2)  # {3, 5, 7}
 
+
 # Intersection 
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
