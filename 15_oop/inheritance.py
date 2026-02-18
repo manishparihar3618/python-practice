@@ -16,6 +16,7 @@ car1 =Car(4,4,"Petrol")
 car1.drive()
 
 class Tesla(Car):
+
  def __init__(self,windows,doors,enginetype,is_selfdriving):
   super().__init__(windows,doors,enginetype)
   self.is_selfdriving = is_selfdriving
