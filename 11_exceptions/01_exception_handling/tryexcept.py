@@ -6,6 +6,7 @@ try:
 except:
    print("Error occured")
 
+
 print("End of program")
 
 # What if we inserts string like manish in place of any number in input, Then it will give us error.  
