@@ -7,7 +7,7 @@
 
 
 
-# # Ojects and Classes
+# # Objects and Classes
 Class:- it is a blue print
 object :- it is a real world entity
 Ex:-
