@@ -1,3 +1,4 @@
+
 # while_loops.py
 
 # (1) Basic while loop
@@ -16,10 +17,11 @@ print("Done with the loop")
 # This loop will continue until a number greater than 24 is entered.
 
 # (3) while loop with else
-count = 5
+count = 6
 while count > 0:
     print(count)
     count -= 1
 else:
+    
     print("I am inside else")
 # 'else' runs only when the loop completes normally (no break)
