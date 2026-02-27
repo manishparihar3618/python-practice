@@ -11,8 +11,6 @@
 # result = sqrt(9) * pi
 # print
 
-
-
 # Importing full math
 # from math import *
 
