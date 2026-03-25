@@ -10,3 +10,16 @@ for character in a:
     print(character)
 
 # This prints each character of the string 'a' one by one
+
+
+
+#Cheak Palindrome Number
+a = input("Enter a number: ")
+rev = ""
+for i in range(len(str(a))-1,-1,-1):
+    rev = rev + str(a)[i]
+    
+if a == rev:
+        print("Its a palindrome")
+else:
+    print("Its not a palindrome")
