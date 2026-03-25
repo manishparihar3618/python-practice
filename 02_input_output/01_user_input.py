@@ -16,7 +16,11 @@ a = input("Enter first number:")
 b = input("Enter second number:")
 print("Sum of a and b is :",int(a)+int(b))
 #now output will be sum of a and b is : \
+a = int(input)
 
 
-
-
+#Find characters ASCII VALUE 
+asci= str(input("Enter caharacter: "))
+asciii=ord(asci)
+print(asciii)
+# using ord built in fxn

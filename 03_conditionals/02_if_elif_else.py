@@ -11,3 +11,16 @@ elif(budget - b >= 25):
 else:
  print("Sorry this is not in my budget")
 print("Bye Bye")
+
+
+
+
+# Question  (Minutes into hours)
+minute = int(input("Enter minutes: "))
+if (minute < 60):
+    print(minute," minutes")
+else :
+    hours = minute//60 
+    print(hours,"Hours")
+    minutes = minute % 60
+    print(minutes,"min")

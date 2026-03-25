@@ -22,3 +22,10 @@ for color in colors:
  print(color)#this code will be giving output each red green blue yellow in different lines 
  for i in color:
     print(i)# again iterated it 
+
+
+
+#Reverse a number 
+a = int(input("Enter a number: "))
+for i in range(len(a)-1,-1,-1):
+    print(a[i])

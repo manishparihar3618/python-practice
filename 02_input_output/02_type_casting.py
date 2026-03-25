@@ -8,5 +8,3 @@ c = 1.2
 d = 2
 print(c+d)# python itself coverted it into float
 
-
-
