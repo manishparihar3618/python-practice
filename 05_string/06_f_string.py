@@ -32,6 +32,5 @@ name = "Tushar"
 age = 23
 print(f"Hello, My name is {name} and I'm {age} years old.")
 print(f"{2 * 30}")  # Expression inside f-string
-
 # Escaping braces in f-strings
 print(f"Hey my name is {{name}} and I am from {{country}}")  # Prints placeholders literally
