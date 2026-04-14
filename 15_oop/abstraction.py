@@ -20,7 +20,6 @@ def operate_vehicle(vehicle):
   vehicle.start_engine()
   vehicle.drive()
 
-
 car = Car()
 operate_vehicle(car)
 
