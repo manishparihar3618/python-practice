@@ -11,6 +11,7 @@ average(4,6)
 
 #(2)Default Argument :- We can provide a default value while creating a function. This way the function assumes a default value even if a value is not provided in a function call for that Argument.
 
+
 def average(a=9,b=1):
   print("The average is", (a+b)/2)
 
