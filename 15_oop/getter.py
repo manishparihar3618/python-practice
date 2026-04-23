@@ -14,6 +14,7 @@ class Student:
     else:
        print("Invalid")
 
+
 s = Student("Manish",95)
 print(s.get_name())
 print(s.get_marks())
