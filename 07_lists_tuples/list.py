@@ -36,6 +36,7 @@ else:
 if "stri" in "string":
     print("yes")
 
+
 print(marks)
 print(marks[1:])
 print(marks[:])
