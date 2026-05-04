@@ -1,6 +1,7 @@
 # Decorators:- A decorator is a function that takes another function as input, adds some extra behavior before or after it runs, and returns the modified function — without changing the original function’s code.
 
 
+
 def routine(fx):
     def wrapper():
         print("Good morning")
