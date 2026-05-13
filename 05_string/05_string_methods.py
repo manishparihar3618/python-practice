@@ -1,5 +1,6 @@
 # Demonstrates commonly used Python string methods
 
+
 # Strings are immutable – operations return a new string
 a = "Manish"
 print(len(a))
