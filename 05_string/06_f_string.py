@@ -13,6 +13,7 @@ print(letter.format(country, name))  # Uses index to reorder
 
 
 
+
 # f-strings (Python 3.6+)
 print(f"Hey my name is {name} and I am from {country}")
 
