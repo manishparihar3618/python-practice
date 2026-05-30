@@ -1,21 +1,29 @@
-.
-from twilio.rest import Client
-import random
+# .
+# from twilio.rest import Client
+# import random
 
-# Twilio credentials
-ACCOUNT_SID = "your_account_sid"
-AUTH_TOKEN = "your_auth_token"
-FROM_NUMBER = "+1234567890"  # Twilio number
+# # Twilio credentials
+# ACCOUNT_SID = "your_account_sid"
+# AUTH_TOKEN = "your_auth_token"
+# FROM_NUMBER = "+1234567890"  # Twilio number
 
-client = Client(ACCOUNT_SID, AUTH_TOKEN)
+# client = Client(ACCOUNT_SID, AUTH_TOKEN)
 
-def send_otp(phone):
-    otp = random.randint(100000, 999999)
-    message = client.messages.create(
-        body=f"Your OTP is {otp}. Do not share it.",
-        from_=FROM_NUMBER,
-        to=phone
-    )
-    return otp
+# def send_otp(phone):
+#     otp = random.randint(100000, 999999)
+#     message = client.messages.create(
+#         body=f"Your OTP is {otp}. Do not share it.",
+#         from_=FROM_NUMBER,
+#         to=phone
+#     )
+#     return otp
 
-send_otp("+91XXXXXXXXXX")
+# send_otp("+91XXXXXXXXXX")
+
+
+
+f = open('Myfiletxtxt.txt','w')
+f.write("Hello")
+f.write("aaa")
+f.close()
+

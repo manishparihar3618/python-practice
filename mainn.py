@@ -101,14 +101,14 @@
 
 
 
-<<<<<<< HEAD
-# Program 11
-str1 = str(input("Enter your String: "))
-print(str1[0])
-n=len(str1)
-print(str1[n-1])
-print(rev(str1))
-=======
+# <<<<<<< HEAD
+# # Program 11
+# str1 = str(input("Enter your String: "))
+# print(str1[0])
+# n=len(str1)
+# print(str1[n-1])
+# print(rev(str1))
+# =======
 # # Program 11
 # str1 = str(input("Enter your String: "))
 # print(str1[0])
@@ -404,13 +404,112 @@ print(rev(str1))
 
 
 ## Question 27 (Cheak palindrome)
-a = int(input("Enter a number: "))
-rev = ""
-for i in range(len(str(a))-1,-1,-1):
-    rev = rev + str(a)[i]
+# a = int(input("Enter a number: "))
+# rev = ""
+# for i in range(len(str(a))-1,-1,-1):
+#     rev = rev + str(a)[i]
     
-if a == int(rev):
-        print("Its a palindrome")
-else:
-    print("Its not a palindrome")
->>>>>>> 84c2231 (Save all changes before pull)
+# if a == int(rev):
+#         print("Its a palindrome")
+# else:
+#     print("Its not a palindrome")
+
+
+
+##Question 28 (Count Vowels and Consonents)
+# b = ""
+# a = input("Enter a string: ")
+# for i in a:
+#     b = a.count(a)
+# print(b)
+
+
+
+# 
+# string  = "Python is a scripting language"
+# print("a appeared: ",string.count("a"),"times")
+
+
+
+
+
+#Question 29 (Remove duplicates from string)
+
+
+
+
+
+
+
+
+
+
+# -------------------------------//-----------------------------------------
+# Q1. Write a function that takes a number and returns its square
+# def squareof (a):
+#     return a * a
+    
+# print(squareof(14))
+
+
+
+# Q2. Write a function is_even(n) that returns True if number is even else False
+# def even(b):
+#     if b % 2 == 0 :
+#         return True 
+#     else :
+#         return False
+# print(even(7))
+
+
+
+# Q3. Write a function that takes a list and returns sum of elements
+# def sum1(lst):
+#     total = 0
+#     for num in lst:
+#      total = total + num
+
+#     return total
+
+# print(sum1([1,2,3,4]))
+
+
+
+
+#Q4. Find largest element in a list (without using max())
+# def largest1(lst):
+#     largest = lst[0]
+#     for i in lst:
+#      if largest < i:
+#         largest = i
+#     return(largest)
+
+# print(largest1([1,2,3,31,2,4,52]))
+
+
+
+
+#Q5 Q5. Remove duplicates from list
+# Input: [1,2,2,3,4,4]
+# Output: [1,2,3,4]
+
+
+
+
+
+
+## Q1. Reverse a string using recursion
+# Input: "hello"
+# Output: "olleh"
+
+def reversal(a):
+    for i in range(len(a)-1,-1,-1):
+        return (a[i])
+
+
+reversal("hello")
+
+# a = "3456"
+# for i in range(len(a)-1,-1,-1):
+#     print(a[i])
+

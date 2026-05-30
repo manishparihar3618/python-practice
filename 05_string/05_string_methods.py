@@ -90,3 +90,5 @@ print("My name is manish parIhar i am a enginerring Student".title())
 text = "Python"
 reversed_text = "".join(reversed(text))
 print(reversed_text)
+
+
