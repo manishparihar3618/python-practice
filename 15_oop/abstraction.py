@@ -22,4 +22,3 @@ def operate_vehicle(vehicle):
 
 car = Car()
 operate_vehicle(car)
-
