@@ -1,11 +1,8 @@
 # Magic Methods:- In python magic methods are also known as dunder methods(double underscore methods), are speacial methods that starts and end  with double undescores. these methods emables you to define the behaviour of objects for built-in operations, such as arithemtic operations, and more.
 class Person:
     pass 
-
 person = Person()
 print(person)
-
-
 #Basic methods 
 class Student:
     def __init__(self,name,age):
@@ -39,9 +36,8 @@ class Student2:
 student2=  Student2("Krish",20)
 print(repr(student2))# return:- Student(name= Krish age= 20)
 #best for returning value for programmer 
+#Other magic methods
 
-
-#Other magic methods 
 #__len__ :- Return the length of an objects 
 #__getitem__ :-Gets an item from a container 
 #__setitem__ :-Sets an item in a container 
