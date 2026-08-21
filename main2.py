@@ -156,6 +156,15 @@
 # print(m)
 
 
+a = int(input("Enter the number: "))
+b = int(input("Enter the number: "))
+if a > b:
+    print("a is greater than b")
+elif a < b:
+    print("b is greater than a")
+else:
+    print("a and b are equal")
+
 
 
 # Smallest Even number 
@@ -177,4 +186,3 @@
 # print(len(m))
 
 
-f = open()

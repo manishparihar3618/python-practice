@@ -10,7 +10,7 @@ for i in range(5):
 for k in range(9):
     print(k)        # prints 0 to 8
     print(k + 1)    # prints 1 to 9
-
+    
 # Example 2: range(1, 9)
 for k in range(1, 9):
     print(k)        # prints 1 to 8
